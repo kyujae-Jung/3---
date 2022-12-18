@@ -1,6 +1,8 @@
 package com.sparta.post;
 
-import com.sparta.post.domain.PostRequestDto;
+import com.sparta.post.repository.PostRepository;
+import com.sparta.post.domain.Post;
+import com.sparta.post.dto.PostRequestDto;
 import com.sparta.post.service.PostService;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;

@@ -1,6 +1,6 @@
-package com.sparta.post;
+package com.sparta.post.domain;
 
-import com.sparta.post.domain.PostRequestDto;
+import com.sparta.post.dto.PostRequestDto;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.*;
@@ -8,7 +8,7 @@ import javax.persistence.*;
 
 @NoArgsConstructor // 기본생성자를 대신 생성해줍니다.
 @Entity// 테이블임을 나타냅니다.
-public class Post extends Timestamped{
+public class Post extends Timestamped {
 
     @Id // ID 값, Primary Key로 사용하겠다는 뜻입니다.
     @GeneratedValue(strategy = GenerationType.AUTO) // 자동 증가 명령입니다.

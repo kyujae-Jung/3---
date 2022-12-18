@@ -1,13 +1,11 @@
 package com.sparta.post.service;
 
-import com.sparta.post.Post;
-import com.sparta.post.PostRepository;
-import com.sparta.post.domain.PostRequestDto;
+import com.sparta.post.domain.Post;
+import com.sparta.post.repository.PostRepository;
+import com.sparta.post.dto.PostRequestDto;
 import org.springframework.stereotype.Service;
 
 import javax.transaction.Transactional;
-import java.util.List;
-import java.util.Objects;
 
 @Service
 public class PostService {

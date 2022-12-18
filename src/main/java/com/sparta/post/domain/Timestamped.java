@@ -1,4 +1,4 @@
-package com.sparta.post;
+package com.sparta.post.domain;
 
 import org.springframework.data.annotation.CreatedDate;
 import org.springframework.data.annotation.LastModifiedDate;
